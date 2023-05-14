@@ -65,8 +65,8 @@ body {
   width: 100%;
   height: 500px;
   position: relative;
-  box-sizing: border-box;
   border-radius: 5px;
+  box-sizing: border-box;
   background-image: url(../resources/Interior.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,6 +140,7 @@ body {
 
 .project__image {
   height: 449.79px;
+  border-radius: 5px;
 }
 
 .deck {
@@ -365,6 +366,21 @@ p {
     font-size: 35px;
     line-height: 48px;
   }
+  .projects {
+    margin-top: 120px;
+  }
+  .project__image {
+    width: 100%;
+    object-fit: cover;
+  }
+  .deck {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .link {
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -411,5 +427,36 @@ p {
     height: 52px;
     font-size: 16px;
     line-height: 22px;
+  }
+  .projects {
+    margin-top: 80px;
+  }
+  .project__image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .about_tagline {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .deck {
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .link {
+    margin-top: 10px;
+    margin-bottom: 49px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .btn__two {
+    padding: 38px;
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+    line-height: 30px;
   }
 }
