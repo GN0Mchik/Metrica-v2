@@ -4,7 +4,6 @@ html {
 
 body {
   margin: 0 auto;
-
   font-family: "Manrope", sans-serif;
   font-weight: 400;
 }
@@ -359,8 +358,9 @@ p {
     bottom: 30px;
   }
   .about_subtitle {
-    width: 690px;
-    height: 336px;
+    width: 100%;
+    min-width: 690px;
+    height: 100%;
     font-size: 35px;
     line-height: 48px;
   }
@@ -373,8 +373,9 @@ p {
     padding-right: 13px;
   }
   .about_title {
-    max-width: 348px;
-    font-size: 31px;
+    width: 100%;
+    min-width: 348px;
+    font-size: 32px;
     line-height: 32px;
   }
   .headline {
@@ -392,13 +393,14 @@ p {
     line-height: 22px;
   }
   .about_tagline {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 19px;
   }
   .about_subtitle {
-    width: 345px;
-    height: 300px;
+    width: 100%;
+    min-width: 345px;
+    height: 100%;
     font-size: 22px;
     line-height: 30px;
   }
