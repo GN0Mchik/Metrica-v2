@@ -145,7 +145,7 @@ body {
 
 .deck {
   margin: 0px;
-  margin-top: 13px;
+  margin-top: 15px;
   width: 661px;
   height: 41px;
   color: #121212;
@@ -438,7 +438,7 @@ p {
     object-fit: cover;
   }
   .about_tagline {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 14px;
     line-height: 19px;
   }
@@ -450,7 +450,7 @@ p {
   }
   .link {
     margin-top: 10px;
-    margin-bottom: 49px;
+    margin-bottom: 51px;
     font-size: 16px;
     line-height: 22px;
   }
