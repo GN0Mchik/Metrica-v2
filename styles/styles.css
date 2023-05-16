@@ -1,168 +1,484 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Метрика</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="icon" href="resources/Metrika_icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- <section>
-    <div class="container">
-    <div  id="aboutus" class="header">
-        <div>
-                <img class="header_logo" src="resources/Metrica.png" alt="Логотип Метрика">
-            <div class="header_nav">
-                <a href="#aboutus" class="nav-link">О НАС</a>
-                <a href="#project" class="nav-link">ПРОЕКТЫ</a>
-                <a href="#services" class="nav-link">УСЛУГИ</a>
-                <a href="#contact" class="nav-link">КОНТАКТЫ</a>
-            </div>
-        </div>
-    </div>
-    </div>
-</section> -->
-    <section class="about">
-      <div class="container">
-        <h1 class="about_title">
-          Современные и стильные интерьеры для комфортной жизни
-        </h1>
-        <div class="headline">
-          <div>
-            <p class="about_text">
-              Мы - команда квалифицированных дизайнеров и архитекторов,
-              занимающихся разработкой и реализацией дизайн-проектов
-            </p>
-          </div>
-        </div>
-        <div>
-          <h2 class="about_tagline">О НАС</h2>
-        </div>
-        <div>
-          <h2 class="about_subtitle">
-            Студия основана в 2011 году. Полностью отдаемся проектированию и
-            реализации интерьеров. К нам обращаются за уютом, индивидуальными
-            решениями и практичностью. Находим конструктивные решения для
-            каждого интерьера, вплоть до каждой детали — нацелены на результат.
-          </h2>
-        </div>
-        <a class="btn" href="#services">Посмотреть услуги</a>
-      </div>
-    </section>
+html {
+  scroll-behavior: smooth;
+}
 
-    <section class="projects">
-      <div class="container">
-        <h2 id="project" class="about_tagline">ПРОЕКТЫ</h2>
-        <ul>
-          <li>
-            <img
-              class="project__image"
-              src="resources/Interior_2.png"
-              alt="Стильная комната с большим панорамным окном, в центре комнаты стоит красный диван и слева от него гитара с двумя картинами."
-            />
-            <h3 class="deck">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-            <a class="link">Подробнее →</a>
-          </li>
-          <li>
-            <img
-              class="project__image"
-              src="resources/Interior_3.png"
-              alt="Уютный проект комнаты с абстрактными цветами, в центре комнаты на стене расположен телевизор, тумба и цветок, с лева два больших кресла-мешка, в центре расположенны треугольные два столика первый меньше второго и справа диван с желтыми подушками."
-            />
-            <h3 class="deck">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-            <a class="link">Подробнее →</a>
-          </li>
-          <li>
-            <img
-              class="project__image"
-              src="resources/Interior_4.png"
-              alt="Дизайн данного проекта строился на минимализме и перфекционизме, в левой части комнаты расположен черный обеденный стол с лева также расположенна лестница которая ведет на вверх, в дальней комнате расположенна просторная кухня и справа большое панорамнные стеклянные раздвижки."
-            />
-            <h3 class="deck">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-            <a class="link">Подробнее →</a>
-          </li>
-        </ul>
-        <a class="btn__two" href="#project">Смотреть все проекты</a>
-      </div>
-    </section>
-    <section class="project_color">
-      <div class="container">
-        <h2 id="services" class="tag">УСЛУГИ</h2>
-        <div>
-          <ul class="flex-box">
-            <li class="service">
-              <img
-                class="services__image"
-                src="resources/Rectangle_1.png"
-                alt="План проект с карандашом."
-              />
-              <h3 class="flex_text flex_color">Планировочное решение</h3>
-            </li>
-            <li class="service">
-              <img
-                class="services__image"
-                src="resources/Rectangle_2.png"
-                alt="Палитра разных оттенков."
-              />
-              <h3 class="flex_text flex_color">Дизайн-проект</h3>
-            </li>
-            <li class="service">
-              <img
-                class="services__image"
-                src="resources/Rectangle_3.png"
-                alt="Проверка план проекта."
-              />
-              <h3 class="flex_text flex_color">Авторский надзор</h3>
-            </li>
-            <li class="service">
-              <img
-                class="services__image"
-                src="resources/Rectangle_4.png"
-                alt="Склад с готовым сырьем."
-              />
-              <h3 class="flex_text flex_color">Комплектация</h3>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- <section>   
-         <div class="gallery">
-            <div class="container">
-            <h3 class="gallery_title">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
-            </div>
-         </div>
-</section>
-<section>
-    <div class="container">
-    <div id="contact" class="phone">
-        <img src="resources/phone.png" alt="Иконка телефона">
-        <div class="contact_wrapper">
-            <h2 class="tagline tagline_contacts">КОНТАКТЫ</h2>
-            <a class="number" href="tel:+7 (935) 895-45-35">+7 935 895-45-35</a>
-            <a class="number link_number" href="mailto:https://vk.com/maskiim">hello@mail.com</a>
-        </div>
-    </div>
-    </div>
-</section>
-<section>
-    <div class="footer">
-        <div class="container">
-        <a href="#aboutus" class="footer-link">О НАС</a>
-        <a href="#project" class="footer-link">ПРОЕКТЫ</a>
-        <a href="#services" class="footer-link">УСЛУГИ</a>
-        <a href="#contact" class="footer-link">КОНТАКТЫ</a>
-        <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
-        <div>
-    </div>
-</section> -->
-  </body>
-</html>
+body {
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  display: block;
+  height: 61px;
+}
+
+.header_logo {
+  margin-top: 33px;
+  margin-right: 555px;
+  width: 127px;
+  height: 22px;
+}
+
+.header_nav {
+  margin-top: 35px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav-link {
+  margin-right: 57px;
+  color: #121212;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid;
+  opacity: 0.5;
+}
+
+.nav-link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.about {
+  margin-top: 68px;
+}
+
+.about_title {
+  margin-bottom: 0;
+  width: 956px;
+  color: #121212;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.headline {
+  margin-top: 30px;
+  margin-bottom: 150px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-image: url(../resources/Interior.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.about_text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  height: 81px;
+  margin: 0;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.about_tagline {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 25px;
+  color: #121212;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.about_subtitle {
+  margin-bottom: 0;
+  width: 1048px;
+  height: 366px;
+  color: #121212;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.btn {
+  margin-top: 28px;
+  padding: 20px 0;
+  display: block;
+  width: 255px;
+  height: 67px;
+  border-image: initial;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(173, 24, 24);
+  background-color: rgb(173, 24, 24);
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: #121212;
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.project__image {
+  height: 449.79px;
+  border-radius: 5px;
+}
+
+.deck {
+  margin: 0px;
+  margin-top: 15px;
+  width: 500px;
+  height: 41px;
+  color: #121212;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.link {
+  margin-top: 15px;
+  margin-bottom: 90px;
+  display: block;
+  width: 127px;
+  height: 26.99px;
+  color: #ad1818;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.btn__two {
+  margin-bottom: 150px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  height: 153px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+  background-color: #ffffff;
+  color: #ad1818;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn__two:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.project_color {
+  background-color: #121212;
+  padding-top: 151px;
+}
+
+.tag {
+  margin-bottom: 30px;
+  width: 80px;
+  height: 25px;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.flex-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.service {
+  max-width: 569px;
+  width: calc(50% - 5px);
+}
+
+.services__image {
+  width: 100%;
+  height: 388px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.flex_text {
+  margin-top: 15px;
+  width: 100%;
+  height: 41px;
+  color: #121212;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.flex_color {
+  margin-bottom: 80px;
+  color: #ffffff;
+}
+
+.gallery {
+  position: relative;
+  margin-bottom: 150px;
+  height: 717px;
+  background-image: url(../resources/Rectangle_5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.gallery_title {
+  padding-top: 574px;
+  width: 443px;
+  height: 82px;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.contact_wrapper {
+  margin-bottom: 151px;
+}
+
+.tagline_contacts {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.number {
+  margin-top: 30px;
+  margin-bottom: 0;
+  display: block;
+  width: 472px;
+  height: 60px;
+  color: #121212;
+  font-style: normal;
+  font-size: 60px;
+  text-decoration: none;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+.number:nth-last-child(1) {
+  width: 412px;
+}
+
+.number:hover {
+  opacity: 0.5;
+}
+
+.link_number {
+  margin-top: 30px;
+  box-sizing: border-box;
+  height: 73px;
+  color: #121212;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+}
+
+.link_number:hover {
+  border-bottom: 2px solid;
+  opacity: 0.5;
+}
+.footer {
+  height: 229px;
+  min-width: 1400px;
+  background-color: #121212;
+}
+
+.footer-link {
+  margin-top: 61px;
+  margin-right: 52px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  vertical-align: top;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-link:nth-last-child(6) {
+  margin-left: 344px;
+}
+
+.footer-link:hover {
+  opacity: 0.5;
+}
+
+.footer-text {
+  margin-top: 87px;
+  margin-left: 385px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  letter-spacing: -0.03em;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+  border: 1px solid red;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about_title {
+    max-width: 802px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .headline {
+    margin-bottom: 120px;
+    height: 400px;
+    background-position: 25%;
+  }
+  .about_text {
+    left: 42px;
+    bottom: 30px;
+  }
+  .about_subtitle {
+    width: 100%;
+    min-width: 690px;
+    height: 100%;
+    font-size: 35px;
+    line-height: 48px;
+  }
+  .projects {
+    margin-top: 120px;
+  }
+  .project__image {
+    width: 100%;
+    object-fit: cover;
+  }
+  .deck {
+    height: 34px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .link {
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .about_title {
+    width: 100%;
+    min-width: 348px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .headline {
+    margin-top: 25px;
+    margin-bottom: 80px;
+    height: 304px;
+    background-position: 25%;
+  }
+  .about_text {
+    left: 15px;
+    bottom: 15px;
+    width: 312px;
+    height: 88px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .about_tagline {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .about_subtitle {
+    width: 100%;
+    min-width: 345px;
+    height: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .btn {
+    padding: 15px;
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .projects {
+    margin-top: 80px;
+  }
+  .project__image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .about_tagline {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .deck {
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .link {
+    margin-top: 10px;
+    margin-bottom: 51px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .btn__two {
+    padding: 33px;
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
