@@ -507,6 +507,7 @@ p {
     flex-direction: column;
   }
   .service {
+    position: relative;
     width: 100%;
     max-width: 100%;
   }
@@ -520,5 +521,17 @@ p {
     height: 24px;
     font-size: 18px;
     line-height: 25px;
+  }
+  .service_price {
+    position: absolute;
+    top: 23px;
+    left: 24px;
+    padding: 7px 0 7px 0;
+    width: 140px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #ad1818;
+    border-radius: 4px;
+    text-align: center;
   }
 }
