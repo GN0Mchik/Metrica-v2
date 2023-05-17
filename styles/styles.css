@@ -214,6 +214,7 @@ body {
 }
 
 .service {
+  position: relative;
   max-width: 569px;
   width: calc(50% - 5px);
 }
@@ -223,6 +224,21 @@ body {
   height: 388px;
   border-radius: 5px;
   object-fit: cover;
+}
+
+.service_price {
+  position: absolute;
+  top: 32px;
+  left: 30px;
+  padding: 6px;
+  width: 180px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #ad1818;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
 }
 
 .flex_text {
@@ -410,10 +426,27 @@ p {
     height: 315px;
     border-radius: 5px;
   }
+  .service {
+    position: relative;
+  }
   .flex_text {
     height: 34px;
     font-size: 25px;
     line-height: 34px;
+  }
+  .service_price {
+    position: absolute;
+    top: 31px;
+    left: 32px;
+    padding: 6px;
+    width: 180px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ad1818;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
   }
 }
 
@@ -526,12 +559,14 @@ p {
     position: absolute;
     top: 23px;
     left: 24px;
-    padding: 5px;
+    padding: 6px;
     width: 140px;
     height: 30px;
     color: #ffffff;
     background-color: #ad1818;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 19px;
     text-align: center;
   }
 }
