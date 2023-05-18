@@ -372,9 +372,9 @@ p {
 
 .container {
   margin: 0 auto;
-   padding: 0 15px 0 15px;
+  padding: 0 15px 0 15px;
   width: 100%;
-  max-width: 1150px;
+  max-width: 1180px;
 }
 
 @media (min-device-width: 768px) and (max-device-width: 960px) {
