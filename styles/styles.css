@@ -104,6 +104,7 @@ body {
 .about_subtitle {
   margin-bottom: 0;
   width: 100%;
+  max-width: 1048px;
   color: #121212;
   font-style: normal;
   font-size: 45px;
