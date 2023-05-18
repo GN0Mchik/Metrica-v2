@@ -556,7 +556,7 @@ p {
   }
   .about_subtitle {
     width: 100%;
-    min-width: 345px;
+    max-width: 530px;
     height: 100%;
     font-size: 22px;
     line-height: 30px;
