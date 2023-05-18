@@ -191,6 +191,7 @@ body {
 }
 
 .project_color {
+  width: 100%;
   background-color: #121212;
   padding-top: 151px;
 }
@@ -372,6 +373,11 @@ p {
 .container {
   margin: 0 auto;
   width: 1150px;
+}
+@media (min-width: 961px) {
+  .project_color {
+    min-width: 1150px;
+  }
 }
 
 @media (min-device-width: 768px) and (max-device-width: 960px) {
