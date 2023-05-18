@@ -439,7 +439,7 @@ p {
   }
   .about_subtitle {
     width: 100%;
-    min-width: 690px;
+    max-width: 690px;
     height: 100%;
     font-size: 35px;
     line-height: 48px;
