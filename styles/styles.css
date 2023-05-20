@@ -310,7 +310,7 @@ body {
 }
 
 .gallery__slide {
-  height: 519px;
+  height: 717px;
   display: none;
 }
 
@@ -350,6 +350,11 @@ body {
   line-height: 41px;
 }
 
+.control-flex {
+  position: absolute;
+  top: 518px;
+}
+
 .gallery__control-prev {
   padding-right: 36px;
   border: none;
@@ -369,20 +374,26 @@ body {
   opacity: 0.5;
 }
 
-.contact_wrapper {
-  margin-bottom: 151px;
+.phone {
+  margin-top: 150px;
+}
+
+.contact_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 150px;
 }
 
 .tagline_contacts {
   margin-top: 12px;
-  margin-bottom: 0;
 }
 
 .number {
-  margin-top: 30px;
-  margin-bottom: 0;
+  margin-top: 27px;
+  margin-right: 180px;
   display: block;
-  width: 472px;
+  width: 480px;
   height: 60px;
   color: #121212;
   font-style: normal;
@@ -392,10 +403,6 @@ body {
   letter-spacing: -0.02em;
 }
 
-.number:nth-last-child(1) {
-  width: 412px;
-}
-
 .number:hover {
   opacity: 0.5;
 }
@@ -403,6 +410,7 @@ body {
 .link_number {
   margin-top: 30px;
   box-sizing: border-box;
+  width: 305px;
   height: 73px;
   color: #121212;
   text-decoration: none;
@@ -588,16 +596,37 @@ p {
   .box_title {
     top: 388px;
     left: 50px;
+    margin-top: 8px;
     width: 100%;
     max-width: 377px;
     font-size: 25px;
     line-height: 34px;
   }
   .gallery__slide {
-    height: 347px;
+    height: 536px;
+  }
+  .control-flex {
+    top: 347px;
   }
   .gallery__control-prev {
     margin-left: 30px;
+  }
+  .phone {
+    margin-top: 120px;
+  }
+  .control-flex {
+    margin-bottom: 80px;
+  }
+  .number {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 140px;
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .link_number {
+    width: 100%;
+    max-width: 230px;
   }
 }
 
@@ -771,11 +800,34 @@ p {
     line-height: 26px;
   }
   .control-flex {
+    position: revert;
+    top: 191px;
     display: flex;
     justify-content: space-between;
   }
-  img {
+  .control_slide {
     width: 14px;
     height: 25px;
+  }
+  .phone {
+    margin-top: 290px;
+  }
+  .tagline_contacts {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .contact_flex {
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+  .contact_wrapper {
+    margin-top: 21px;
+  }
+  .number {
+    margin-top: 21px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 46px;
   }
 }
