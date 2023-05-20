@@ -745,7 +745,37 @@ p {
   .row_bottom_text {
     width: 100%;
     max-width: 530px;
+    margin-bottom: 80px;
     font-size: 16px;
     line-height: 22px;
+  }
+  .gallery__title {
+    width: 128px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .gallery__slide {
+    height: 191px;
+  }
+  .box {
+    width: 100%;
+    min-width: 320px;
+    height: 408px;
+    background-position: 45%;
+  }
+  .box_title {
+    top: 296px;
+    width: 100%;
+    max-width: 278px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .control-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    width: 14px;
+    height: 25px;
   }
 }
