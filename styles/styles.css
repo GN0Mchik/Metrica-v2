@@ -11,11 +11,11 @@ body {
 .header {
   display: block;
   height: 61px;
+  width: 100%;
 }
 
 .header_logo {
   margin-top: 33px;
-  margin-right: 555px;
   width: 127px;
   height: 22px;
 }
@@ -851,5 +851,8 @@ p {
     margin-top: 41px;
     font-size: 13px;
     line-height: 18px;
+  }
+  .about {
+    margin-top: 30px;
   }
 }
