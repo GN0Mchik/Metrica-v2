@@ -726,6 +726,9 @@ p {
     width: 100%;
     max-width: 230px;
   }
+  .popup {
+    overflow-y: scroll;
+  }
 }
 
 @media (min-device-width: 320px) and (max-device-width: 767px) {
