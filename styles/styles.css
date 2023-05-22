@@ -951,6 +951,9 @@ p {
   .about {
     margin-top: 30px;
   }
+  .popup {
+    overflow-y: scroll;
+  }
   .btn__three {
     margin-bottom: 80px;
     height: 100px;
