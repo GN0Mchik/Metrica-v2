@@ -353,7 +353,6 @@ body {
   width: 30px;
   height: 30px;
   background-image: url(../resources/icon_close.png);
-  color: red;
   cursor: pointer;
 }
 
