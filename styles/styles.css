@@ -306,7 +306,6 @@ body {
   max-height: 100%;
   background-color: #ffffff;
   border-radius: 10px;
-  overflow-y: scroll;
 }
 
 .popup_conteiner {
@@ -728,6 +727,9 @@ p {
   .link_number {
     width: 100%;
     max-width: 230px;
+  }
+  .popup__content {
+    overflow-y: scroll;
   }
 }
 
