@@ -396,6 +396,8 @@ body {
 
 .gallery {
   position: relative;
+  margin: 0 auto;
+  max-width: 1800px;
 }
 
 .gallery__title {
@@ -418,6 +420,7 @@ body {
 
 .box {
   height: 717px;
+  border-radius: 5px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -692,6 +695,7 @@ p {
   }
   .box {
     height: 536px;
+    border-radius: 0;
   }
   .box_title {
     top: 388px;
@@ -896,6 +900,7 @@ p {
     width: 100%;
     min-width: 320px;
     height: 408px;
+    border-radius: 0;
     background-position: 45%;
   }
   .box_title {
@@ -1001,5 +1006,17 @@ p {
     top: 46px;
     right: 35px;
     background-image: url(../resources/icon_close_small.png);
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 365px) {
+  .container {
+    margin: 0 auto;
+  }
+  .about_title {
+    min-width: 0;
+  }
+  .row_text {
+    min-width: 0;
   }
 }
