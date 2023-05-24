@@ -13,7 +13,8 @@ body {
 }
 
 .header {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   height: 61px;
   width: 100%;
 }
@@ -25,13 +26,12 @@ body {
 }
 
 .header_nav {
+  display: flex;
+  gap: 57px;
   margin-top: 35px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .nav-link {
-  margin-right: 57px;
   color: #121212;
   font-style: normal;
   font-weight: 400;
