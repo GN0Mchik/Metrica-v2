@@ -348,7 +348,7 @@ body {
   position: absolute;
   display: flex;
   top: 42px;
-  left: 703px;
+  right: 44px;
   width: 30px;
   height: 30px;
   background-image: url(../resources/icon_close.png);
@@ -731,6 +731,9 @@ p {
   .popup__content {
     overflow-y: scroll;
   }
+  .popup_close-btn {
+    right: 54px;
+  }
 }
 
 @media (min-device-width: 320px) and (max-device-width: 767px) {
@@ -996,7 +999,7 @@ p {
     width: 18px;
     height: 18px;
     top: 46px;
-    left: 308px;
+    right: 35px;
     background-image: url(../resources/icon_close_small.png);
   }
 }
