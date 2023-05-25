@@ -1026,12 +1026,17 @@ p {
     background-image: url(../resources/icon_close_small.png);
   }
   .input {
-    width: 100%;
     max-width: 312px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .input:nth-last-child(1) {
+    margin-bottom: 60px;
   }
 }
 
-@media (min-device-width: 320px) and (max-device-width: 365px) {
+@media (min-device-width: 320px) and (max-device-width: 350px) {
   .container {
     margin: 0 auto;
   }
@@ -1042,6 +1047,6 @@ p {
     min-width: 0;
   }
   .input {
-    width: 277px;
+    width: 100%;
   }
 }
