@@ -1016,7 +1016,6 @@ p {
   }
   .popup_btn {
     display: block;
-    margin-top: 315px;
     margin-bottom: 80px;
   }
   .popup_close-btn {
@@ -1025,6 +1024,10 @@ p {
     top: 46px;
     right: 35px;
     background-image: url(../resources/icon_close_small.png);
+  }
+  .input {
+    width: 100%;
+    max-width: 312px;
   }
 }
 
@@ -1037,5 +1040,8 @@ p {
   }
   .row_text {
     min-width: 0;
+  }
+  .input {
+    width: 277px;
   }
 }
