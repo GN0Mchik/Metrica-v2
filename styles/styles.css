@@ -340,9 +340,9 @@ body {
   line-height: 34px;
 }
 
-/* .input:focus {
+.input:focus {
   outline: none;
-} */
+}
 
 .input:nth-last-child(1) {
   margin-bottom: 80px;
