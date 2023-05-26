@@ -1048,5 +1048,6 @@ p {
   }
   .input {
     width: 100%;
+    max-width: 340px;
   }
 }
