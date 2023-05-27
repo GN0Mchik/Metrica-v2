@@ -51,11 +51,11 @@ body {
   margin-right: 0;
 }
 
-.about {
+.intro {
   margin-top: 68px;
 }
 
-.about_title {
+.intro_title {
   margin-bottom: 0;
   width: 956px;
   color: #121212;
@@ -64,7 +64,7 @@ body {
   line-height: 60px;
 }
 
-.headline {
+.intro_image {
   margin-top: 30px;
   margin-bottom: 150px;
   width: 100%;
@@ -78,7 +78,7 @@ body {
   background-position: 50%;
 }
 
-.about_text {
+.intro_text {
   position: absolute;
   left: 40px;
   bottom: 40px;
