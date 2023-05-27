@@ -56,7 +56,6 @@ body {
 }
 
 .intro_title {
-  margin-bottom: 0;
   width: 956px;
   color: #121212;
   font-style: normal;
@@ -71,7 +70,6 @@ body {
   height: 500px;
   position: relative;
   border-radius: 5px;
-  box-sizing: border-box;
   background-image: url(../resources/Interior.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,27 +81,15 @@ body {
   left: 40px;
   bottom: 40px;
   width: 430px;
-  height: 81px;
-  margin: 0;
   color: #ffffff;
-  font-style: normal;
   font-size: 20px;
   line-height: 27px;
 }
 
-.projects {
-  margin-top: 150px;
-}
-
-.about_tagline {
+.about_title {
   margin-bottom: 30px;
-  width: 80px;
-  height: 25px;
-  color: #121212;
-  font-style: normal;
   font-size: 18px;
   line-height: 25px;
-  text-transform: uppercase;
 }
 
 .about_subtitle {
@@ -124,7 +110,7 @@ body {
   height: 67px;
   border-image: initial;
   border-radius: 5px;
-  border-width: 1px;
+  border: 1px solid;
   border-style: solid;
   border-color: rgb(173, 24, 24);
   background-color: rgb(173, 24, 24);
@@ -135,12 +121,23 @@ body {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
   border-color: #121212;
   background-color: #ffffff;
   color: #121212;
+}
+
+.projects {
+  margin-top: 150px;
+}
+
+.project_title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .project__image {
