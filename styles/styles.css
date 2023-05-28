@@ -102,7 +102,7 @@ body {
   line-height: 61px;
 }
 
-.btn {
+.about_btn {
   margin-top: 28px;
   padding: 20px 0;
   display: block;
@@ -124,7 +124,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.btn:hover {
+.about_btn:hover {
   border-color: #121212;
   background-color: #ffffff;
   color: #121212;
@@ -140,13 +140,13 @@ body {
   line-height: 25px;
 }
 
-.project__image {
+.project_image {
   width: 100%;
   height: 449.79px;
   border-radius: 5px;
 }
 
-.deck {
+.project_text {
   margin: 0px;
   margin-top: 15px;
   color: #121212;
@@ -155,7 +155,7 @@ body {
   line-height: 41px;
 }
 
-.link {
+.project_link {
   margin-top: 15px;
   margin-bottom: 90px;
   display: block;
@@ -168,7 +168,7 @@ body {
   cursor: pointer;
 }
 
-.btn__two {
+.project_btn {
   margin-bottom: 150px;
   padding-top: 56px;
   padding-bottom: 56px;
@@ -184,21 +184,22 @@ body {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.btn__two:hover {
+.project_btn:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
 
-.project_color {
+.services {
   width: 100%;
   background-color: #121212;
   padding-top: 151px;
   margin-bottom: 150px;
 }
 
-.tag {
+.service_title {
   margin-bottom: 30px;
   width: 80px;
   height: 25px;
@@ -209,7 +210,7 @@ body {
   text-transform: uppercase;
 }
 
-.flex-box {
+.service_flex-box {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -222,7 +223,7 @@ body {
   width: calc(50% - 5px);
 }
 
-.services__image {
+.service_image {
   width: 100%;
   height: 388px;
   border-radius: 5px;
@@ -244,7 +245,7 @@ body {
   text-align: center;
 }
 
-.flex_text {
+.service_text {
   margin-top: 15px;
   width: 100%;
   height: 41px;
@@ -254,12 +255,12 @@ body {
   line-height: 41px;
 }
 
-.flex_color {
+.service_text-color {
   margin-bottom: 80px;
   color: #ffffff;
 }
 
-.btn__three {
+.services_btn {
   margin-top: 24px;
   margin-bottom: 150px;
   width: 100%;
