@@ -373,8 +373,10 @@ body {
   cursor: pointer;
 }
 
-.tag_color {
-  color: #121212;
+.review_title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .row {
@@ -436,7 +438,7 @@ body {
   display: block;
 }
 
-.box {
+.slide_box {
   height: 717px;
   border-radius: 5px;
   background-repeat: no-repeat;
@@ -444,23 +446,23 @@ body {
   background-position: 50%;
 }
 
-.box_one {
+.slide_one {
   background-image: url(../resources/slide_one.png);
 }
 
-.box_two {
+.slide_two {
   background-image: url(../resources/slide_two.png);
 }
 
-.box_three {
+.slide_three {
   background-image: url(../resources/slide_three.png);
 }
 
-.box_four {
+.slide_four {
   background-image: url(../resources/slide_four.png);
 }
 
-.box_title {
+.slide_title {
   position: absolute;
   top: 575px;
   width: 443px;
