@@ -495,7 +495,7 @@ body {
   opacity: 0.5;
 }
 
-.phone {
+.box_contact {
   margin-top: 150px;
 }
 
@@ -506,8 +506,9 @@ body {
   margin-bottom: 150px;
 }
 
-.tagline_contacts {
-  margin-top: 12px;
+.contact_title {
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .number {
@@ -528,7 +529,7 @@ body {
   opacity: 0.5;
 }
 
-.link_number {
+.link_mail {
   margin-top: 30px;
   box-sizing: border-box;
   width: 308px;
