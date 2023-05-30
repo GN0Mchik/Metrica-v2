@@ -714,7 +714,7 @@ p {
     font-size: 20px;
     line-height: 27px;
   }
-  .box {
+  .gallery__slide{
     height: 536px;
     border-radius: 0;
   }
