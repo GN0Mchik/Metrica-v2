@@ -739,7 +739,7 @@ p {
   .contacts {
     margin-top: 120px;
   }
-  .control-flex {
+  .contact_flex{
     margin-bottom: 80px;
   }
   .number {
@@ -767,7 +767,7 @@ p {
     padding-left: 13px;
     padding-right: 13px;
   }
-  .about_title {
+  .intro_title {
     width: 100%;
     min-width: 348px;
     font-size: 32px;
