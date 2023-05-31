@@ -714,11 +714,14 @@ p {
     font-size: 20px;
     line-height: 27px;
   }
-  .gallery__slide{
+  .gallery__slide {
+    height: 536px;
+  }
+  .slide_box {
     height: 536px;
     border-radius: 0;
   }
-  .box_title {
+  .slide_title {
     top: 388px;
     left: 50px;
     margin-top: 8px;
@@ -726,9 +729,6 @@ p {
     max-width: 377px;
     font-size: 25px;
     line-height: 34px;
-  }
-  .gallery__slide {
-    height: 536px;
   }
   .control-flex {
     top: 347px;
@@ -739,7 +739,7 @@ p {
   .contacts {
     margin-top: 120px;
   }
-  .contact_flex{
+  .contact_flex {
     margin-bottom: 80px;
   }
   .number {
