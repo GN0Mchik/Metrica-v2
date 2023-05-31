@@ -880,11 +880,21 @@ p {
     line-height: 19px;
     text-align: center;
   }
+  .services_btn {
+    margin-bottom: 80px;
+    height: 100px;
+  }
+  .review_title {
+    margin-bottom: 22px;
+    font-size: 14px;
+    line-height: 19px;
+  }
   .row {
     margin: 0;
     flex-direction: column;
   }
   .row_title {
+    margin-bottom: 10px;
     width: 100%;
     font-size: 25px;
     line-height: 34px;
@@ -901,13 +911,15 @@ p {
     font-size: 25px;
     line-height: 34px;
   }
-
   .row_bottom_text {
     width: 100%;
     max-width: 530px;
     margin-bottom: 80px;
     font-size: 16px;
     line-height: 22px;
+  }
+  .gallery {
+    height: 408px;
   }
   .gallery__title {
     width: 128px;
@@ -917,14 +929,14 @@ p {
   .gallery__slide {
     height: 191px;
   }
-  .box {
+  .slide_box {
     width: 100%;
     min-width: 320px;
     height: 408px;
     border-radius: 0;
     background-position: 45%;
   }
-  .box_title {
+  .slide_title {
     top: 296px;
     width: 100%;
     max-width: 278px;
@@ -941,8 +953,8 @@ p {
     width: 14px;
     height: 25px;
   }
-  .phone {
-    margin-top: 275px;
+  .box_contact {
+    margin-top: 80px;
   }
   .tagline_contacts {
     font-size: 14px;
@@ -962,7 +974,7 @@ p {
     font-size: 35px;
     line-height: 46px;
   }
-  .link_number {
+  .link_mail {
     width: 181px;
     height: 46px;
   }
