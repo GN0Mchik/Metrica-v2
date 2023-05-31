@@ -809,28 +809,28 @@ p {
   .projects {
     margin-top: 80px;
   }
-  .project__image {
+  .project_image {
     width: 100%;
     height: 250px;
     object-fit: cover;
   }
-  .about_tagline {
+  .project_title {
     margin-bottom: 15px;
     font-size: 14px;
     line-height: 19px;
   }
-  .deck {
+  .project_text {
     width: 100%;
     font-size: 18px;
     line-height: 25px;
   }
-  .link {
+  .project_link {
     margin-top: 10px;
     margin-bottom: 51px;
     font-size: 16px;
     line-height: 22px;
   }
-  .btn__two {
+  .project_btn {
     margin-bottom: 80px;
     padding: 33px;
     width: 100%;
@@ -838,16 +838,16 @@ p {
     font-size: 22px;
     line-height: 30px;
   }
-  .project_color {
+  .services {
     margin-bottom: 80px;
     padding-top: 80px;
   }
-  .tag {
+  .service_title {
     height: 19px;
     font-size: 14px;
     line-height: 19px;
   }
-  .flex-box {
+  .service_flex-box {
     flex-direction: column;
   }
   .service {
@@ -855,11 +855,11 @@ p {
     width: 100%;
     max-width: 100%;
   }
-  .services__image {
+  .services_image {
     width: 100%;
     height: 240px;
   }
-  .flex_text {
+  .service_text {
     margin-top: 10px;
     margin-bottom: 60px;
     height: 24px;
