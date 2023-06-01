@@ -882,6 +882,8 @@ p {
   .services_btn {
     margin-bottom: 80px;
     height: 100px;
+    font-size: 22px;
+    line-height: 30px;
   }
   .popup {
     padding: 13px 0 13px 0;
