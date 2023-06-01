@@ -880,6 +880,7 @@ p {
     text-align: center;
   }
   .services_btn {
+    margin-top: 0;
     margin-bottom: 80px;
     height: 100px;
     font-size: 22px;
@@ -887,12 +888,6 @@ p {
   }
   .popup {
     padding: 13px 0 13px 0;
-  }
-  .btn__three {
-    margin-bottom: 80px;
-    height: 100px;
-    font-size: 22px;
-    line-height: 30px;
   }
   .popup__content {
     max-width: 361px;
