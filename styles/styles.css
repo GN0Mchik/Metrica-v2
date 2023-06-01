@@ -954,6 +954,7 @@ p {
     line-height: 22px;
   }
   .row_bottom_title {
+    margin-bottom: 10px;
     font-size: 25px;
     line-height: 34px;
   }
