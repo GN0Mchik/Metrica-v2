@@ -1,4 +1,13 @@
-sshtml {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+html {
   scroll-behavior: smooth;
 }
 
