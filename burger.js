@@ -1,4 +1,4 @@
-иоооconst BURGER_OPENED_CLASSNAME = 'burger_open';
+тиоооconst BURGER_OPENED_CLASSNAME = 'burger_open';
 const BURGER_BTN_OPENED_CLASSNAME = 'burger-btn_open';
 const BODY_FIXED_CLASSNAME = 'body_fixed';
 
