@@ -32,6 +32,37 @@ body {
   margin-top: 35px;
 }
 
+.burger_btn {
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 13px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: rgb(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+}
+
+.burger_open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burger__content {
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
 .nav-link {
   color: #121212;
   font-style: normal;
@@ -605,6 +636,15 @@ p {
     margin: 0 auto;
     width: 100%;
     padding: 0 15px o 15px;
+  }
+  .header_nav {
+    display: none;
+  }
+  .burger_btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
   }
   .intro_title {
     width: 100%;
