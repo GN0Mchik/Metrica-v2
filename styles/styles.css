@@ -58,7 +58,7 @@ body {
 }
 
 .burger__content {
-  width: 70%;
+  width: 50%;
   height: 100%;
   border-radius: 5px;
   background-color: #ffffff;
@@ -654,6 +654,13 @@ p {
   .burger-btn_open {
     position: absolute;
     right: 30px;
+  }
+  .burger_logo {
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 127px;
+    height: 22px;
+    background-image: url(../resources/Metrica.png);
   }
   .intro_title {
     width: 100%;
