@@ -658,9 +658,26 @@ p {
   .burger_logo {
     margin-top: 80px;
     margin-left: 30px;
+    margin-bottom: 50px;
     width: 127px;
     height: 22px;
     background-image: url(../resources/Metrica.png);
+  }
+  .burger_nav {
+    display: block;
+  }
+  .burger-link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 20px;
+    color: #121212;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
   }
   .intro_title {
     width: 100%;
