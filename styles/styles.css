@@ -61,7 +61,16 @@ body {
   width: 50%;
   height: 100%;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-image: url(../resources/burger_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 47%;
+  position: relative;
+  right: -395px;
+}
+.burger__content:hover {
+  : 0;
+  transition: all 0.2s ease;
 }
 
 .nav-link {
@@ -644,7 +653,7 @@ p {
   .burger-btn {
     position: absolute;
     top: 33px;
-    right: 15px;
+    right: 30px;
     display: block;
     width: 50px;
     height: 20px;
@@ -654,30 +663,39 @@ p {
   .burger-btn_open {
     position: absolute;
     right: 30px;
+    background-color: aqua;
   }
   .burger_logo {
     margin-top: 80px;
     margin-left: 30px;
     margin-bottom: 50px;
-    width: 127px;
-    height: 22px;
-    background-image: url(../resources/Metrica.png);
+    width: 180px;
+    height: 30px;
+    background-image: url(../resources/burger_logo.png);
+    background-size: cover;
   }
   .burger_nav {
     display: block;
   }
   .burger-link {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     margin-left: 30px;
     margin-bottom: 20px;
+    padding-left: 10px;
+    height: 35px;
     color: #121212;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
+    border-left: 3px solid #121212;
+    font-size: 25px;
+    line-height: 34px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  .burger-link:hover {
+    border-left: 3px solid #121212;
+    padding-left: 30px;
   }
   .intro_title {
     width: 100%;
