@@ -66,11 +66,12 @@ body {
   background-size: cover;
   background-position: 47%;
   position: relative;
-  right: -395px;
+  right: -100px;
+  transition: all 0.4s ease;
 }
+
 .burger__content:hover {
-  : 0;
-  transition: all 0.2s ease;
+  right: 0;
 }
 
 .nav-link {
