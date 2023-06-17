@@ -27,7 +27,7 @@
             <a href="#services" class="nav-link">УСЛУГИ</a>
             <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
           </div>
-          <div class="js-burger-btn burger-btn"></div>
+          <div class="js-burger-btn burger-btn"><span></span></div>
           <div class="js-burger burger">
             <div class="js-burger__content burger__content">
               <div class="burger_logo"></div>
@@ -317,7 +317,13 @@
         </div>
       </div>
     </footer>
-    <!-- <script src="menu.js"></script> -->
+    <script>
+      document
+        .querySelector(".burger-btn")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+        });
+    </script>
     <script src="burger.js"></script>
     <script src="popup.js"></script>
     <script src="gallery.js"></script>
