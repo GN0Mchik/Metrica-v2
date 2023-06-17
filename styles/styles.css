@@ -477,6 +477,7 @@ body {
 
 .gallery__slide_active {
   display: block;
+  transform: all 0.5s ease;
 }
 
 .slide_box {
@@ -652,19 +653,44 @@ p {
     display: none;
   }
   .burger-btn {
-    position: absolute;
-    top: 33px;
-    right: 30px;
-    display: block;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 30px;
+    right: 15px;
     width: 50px;
     height: 20px;
     z-index: 100;
-    background-color: red;
+    transform: all 0.5s ease;
   }
-  .burger-btn_open {
+  .burger-btn span {
+    height: 2px;
+    width: 50px;
+    transform: scale(1);
+    background-color: #121212;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .burger-btn::before {
+    content: "";
     position: absolute;
-    right: 30px;
-    background-color: aqua;
+    height: 2px;
+    width: 31px;
+    background-color: #121212;
+    transition: all 0.3s ease-in-out;
+  }
+  .burger-btn::before {
+    top: 14px;
+  }
+  .burger-btn.active span {
+    transform: rotate(-225deg) translate(0, -50%);
+    width: 30px;
+    position: relative;
+    top: 4px;
+  }
+  .burger-btn.active::before {
+    transform: rotate(225deg) translate(0, 50%);
+    width: 30px;
   }
   .burger_logo {
     margin-top: 80px;
