@@ -75,6 +75,42 @@ body {
   transform: translateX(0);
 }
 
+.burger_contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.burger_contact_title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+
+.burger_number {
+  font-size: 20px;
+  line-height: 46px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.burger_number:hover {
+  opacity: 0.5;
+}
+
+.burger_link_mail {
+  font-size: 20px;
+  line-height: 36px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.burger_link_mail:hover {
+  opacity: 0.5;
+}
+
 .nav-link {
   color: #121212;
   font-style: normal;
@@ -882,6 +918,83 @@ p {
   .container {
     width: 100%;
     padding: 0 13px 0 13px;
+  }
+  .header_nav {
+    display: none;
+  }
+  .burger__content {
+    width: 80%;
+  }
+  .burger-btn {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 30px;
+    right: 15px;
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+    transform: all 0.5s ease;
+  }
+  .burger-btn span {
+    height: 2px;
+    width: 38px;
+    transform: scale(1);
+    background-color: #121212;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .burger-btn::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 24px;
+    background-color: #121212;
+    transition: all 0.3s ease-in-out;
+  }
+  .burger-btn::before {
+    top: 14px;
+  }
+  .burger-btn.active span {
+    transform: rotate(-225deg) translate(0, -50%);
+    width: 30px;
+    position: relative;
+    top: 4px;
+  }
+  .burger-btn.active::before {
+    transform: rotate(225deg) translate(0, 50%);
+    width: 30px;
+  }
+  .burger_logo {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 128px;
+    height: 23px;
+    background-image: url(../resources/Metrica.png);
+  }
+  .burger_nav {
+    display: block;
+  }
+  .burger-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    height: 35px;
+    color: #121212;
+    border-left: 3px solid #121212;
+    font-size: 25px;
+    line-height: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  .burger-link:hover {
+    border-left: 3px solid #121212;
+    padding-left: 30px;
   }
   .intro_title {
     width: 100%;
