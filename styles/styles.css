@@ -1274,6 +1274,9 @@ p {
   .container {
     margin: 0 auto;
   }
+  .intro_title {
+    min-width: 300px;
+  }
   .about_title {
     min-width: 0;
   }
