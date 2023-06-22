@@ -195,11 +195,26 @@
                 <p class="popup__text">
                   Заполните форму, мы свяжемся с вами в течение суток
                 </p>
-                <div class="popup__input">
-                  <input class="input" placeholder="Имя" />
-                  <input class="input" placeholder="Электронная почта" />
-                  <input class="input" placeholder="Номер телефона" />
-                </div>
+                <form class="popup__input">
+                  <input
+                    type="text"
+                    name="name"
+                    class="input"
+                    placeholder="Имя"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    class="input"
+                    placeholder="Электронная почта"
+                  />
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="input"
+                    placeholder="Номер телефона"
+                  />
+                </form>
                 <button class="popup__btn">Отправить</button>
                 <div class="js-popup__close-btn popup__close-btn"></div>
               </div>
