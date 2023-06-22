@@ -32,24 +32,27 @@
           <a href="https://gn0mchik.github.io/Portfolio/">
             <div class="header__logo"></div>
           </a>
-          <ul class="header__nav">
-            <li>
-              <a href="#aboutus" class="nav__link">О НАС</a>
-            </li>
-            <li>
-              <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
-            </li>
-            <li>
-              <a href="#services" class="nav__link">УСЛУГИ</a>
-            </li>
-            <li>
-              <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
-            </li>
-          </ul>
+          <nav>
+            <ul class="header__nav">
+              <li>
+                <a href="#aboutus" class="nav__link">О НАС</a>
+              </li>
+              <li>
+                <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+              </li>
+              <li>
+                <a href="#services" class="nav__link">УСЛУГИ</a>
+              </li>
+              <li>
+                <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
           <div class="js-burger-btn burger__btn"><span></span></div>
           <div class="js-burger burger">
             <div class="burger__content">
               <div class="burger__logo"></div>
+              <nav>
               <ul class="burger__nav">
                 <li>
                   <a href="#aboutus" class="burger__link">О НАС</a>
@@ -64,6 +67,7 @@
                   <a href="#contacts" class="burger__link">КОНТАКТЫ</a>
                 </li>
               </ul>
+              <nav>
               <div class="burger__contact js-burger__content">
                 <div class="burger__contact-title">для связи:</div>
                 <a class="burger__number" href="tel:+7 (935) 895-45-35"
@@ -95,7 +99,7 @@
       <section class="about">
         <div class="container">
           <div>
-            <h2 id="aboutus" class="about__title">О НАС</h2>
+            <h2 id="aboutus" class="title">О НАС</h2>
           </div>
           <div>
             <p class="about__subtitle">
@@ -111,7 +115,7 @@
       </section>
       <section class="projects">
         <div class="container">
-          <h2 id="projects" class="project__title">ПРОЕКТЫ</h2>
+          <h2 id="projects" class="title">ПРОЕКТЫ</h2>
           <ul>
             <li>
               <img
@@ -146,7 +150,7 @@
       </section>
       <section class="services">
         <div class="container">
-          <h2 id="services" class="service__title">УСЛУГИ</h2>
+          <h2 id="services" class="title service__title-color">УСЛУГИ</h2>
           <ul class="service__flex-box">
             <li class="service">
               <img
@@ -203,7 +207,6 @@
                     placeholder="Имя"
                   />
                   <input
-                    inputmode="email"
                     type="email"
                     name="email"
                     class="input"
@@ -226,7 +229,7 @@
       <section class="reviews">
         <div class="container">
           <div>
-            <h2 class="review__title">ОТЗЫВЫ</h2>
+            <h2 class="title">ОТЗЫВЫ</h2>
           </div>
           <div class="row">
             <div class="row__left">
@@ -262,7 +265,7 @@
             </div>
           </div>
           <div class="row__bottom">
-            <h2 class="row__bottom-title">Яна, проект 120 кв.м.</h2>
+            <h2 class="row__title">Яна, проект 120 кв.м.</h2>
             <p class="row__bottom-text">
               "Хотелось бы сказать большое спасибо за проделанную работу! В
               задачу Марины входила разработка дизайн-проекта в минимальные
@@ -358,12 +361,12 @@
       <div class="footer">
         <div class="container">
           <div class="footer__inner">
-            <div class="footer__nav">
+            <nav class="footer__nav">
               <a href="#aboutus" class="footer__link">О НАС</a>
               <a href="#projects" class="footer__link">ПРОЕКТЫ</a>
               <a href="#services" class="footer__link">УСЛУГИ</a>
               <a href="#contacts" class="footer__link">КОНТАКТЫ</a>
-            </div>
+            </nav>
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
           </div>
         </div>
