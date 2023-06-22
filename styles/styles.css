@@ -15,6 +15,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 68px;
   height: 61px;
   width: 100%;
 }
@@ -59,12 +60,12 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: end;
   padding: 13px;
   width: 100%;
   height: 100%;
   z-index: 1;
-  display: flex;
-  justify-content: end;
   background-color: rgb(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
@@ -120,9 +121,9 @@ body {
 }
 
 .burger__link-mail {
+  color: #121212;
   font-size: 20px;
   line-height: 36px;
-  color: #121212;
   text-decoration: none;
 }
 
@@ -131,7 +132,7 @@ body {
 }
 
 .intro {
-  margin-top: 68px;
+  margin-bottom: 150px;
 }
 
 .intro__title {
@@ -144,7 +145,6 @@ body {
 
 .intro__image {
   margin-top: 30px;
-  margin-bottom: 150px;
   width: 100%;
   height: 500px;
   position: relative;
@@ -165,10 +165,14 @@ body {
   line-height: 27px;
 }
 
-.about__title {
+.title {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
+}
+
+.about {
+  margin-bottom: 150px;
 }
 
 .about__subtitle {
@@ -210,13 +214,7 @@ body {
 }
 
 .projects {
-  margin-top: 150px;
-}
-
-.project__title {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
+  margin-bottom: 150px;
 }
 
 .project__image {
@@ -248,7 +246,6 @@ body {
 }
 
 .project__btn {
-  margin-bottom: 150px;
   padding-top: 56px;
   padding-bottom: 56px;
   height: 153px;
@@ -272,21 +269,14 @@ body {
 }
 
 .services {
+  margin-bottom: 150px;
   width: 100%;
   background-color: #121212;
   padding-top: 151px;
-  margin-bottom: 150px;
 }
 
-.service__title {
-  margin-bottom: 30px;
-  width: 80px;
-  height: 25px;
+.service__title-color {
   color: #ffffff;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
 }
 
 .service__flex-box {
@@ -451,6 +441,10 @@ body {
   cursor: pointer;
 }
 
+.reviews {
+  margin-bottom: 150px;
+}
+
 .review__title {
   margin-bottom: 30px;
   font-size: 18px;
@@ -478,16 +472,10 @@ body {
   line-height: 30px;
 }
 
-.row__bottom-title {
-  margin-bottom: 25px;
-  font-size: 45px;
-  line-height: 61px;
-}
-
 .row__bottom-text {
   width: 100%;
   max-width: 861px;
-  margin-bottom: 157px;
+
   font-size: 22px;
   line-height: 30px;
 }
@@ -495,6 +483,7 @@ body {
 .gallery {
   position: relative;
   margin: 0 auto;
+  margin-bottom: 150px;
   max-width: 1800px;
 }
 
@@ -574,15 +563,14 @@ body {
   opacity: 0.5;
 }
 
-.box__contact {
-  margin-top: 150px;
+.contacts {
+  margin-bottom: 150px;
 }
 
 .contact__flex {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
-  margin-bottom: 150px;
 }
 
 .contact__title {
@@ -591,9 +579,9 @@ body {
 }
 
 .number {
+  display: block;
   margin-top: 27px;
   margin-right: 80px;
-  display: block;
   width: 100%;
   height: 60px;
   color: #121212;
@@ -609,8 +597,8 @@ body {
 }
 
 .link__mail {
-  margin-top: 30px;
   box-sizing: border-box;
+  margin-top: 30px;
   width: 308px;
   height: 73px;
   color: #121212;
@@ -691,11 +679,11 @@ p {
   }
   .burger__btn {
     position: relative;
+    top: 30px;
+    right: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    top: 30px;
-    right: 15px;
     width: 50px;
     height: 20px;
     z-index: 100;
@@ -720,14 +708,14 @@ p {
     top: 14px;
   }
   .burger__btn.active span {
-    transform: rotate(-225deg) translate(0, -50%);
-    width: 30px;
     position: relative;
     top: 4px;
+    width: 30px;
+    transform: rotate(-225deg) translate(0, -50%);
   }
   .burger__btn.active::before {
-    transform: rotate(225deg) translate(0, 50%);
     width: 30px;
+    transform: rotate(225deg) translate(0, 50%);
   }
   .burger__logo {
     margin-top: 80px;
@@ -737,6 +725,7 @@ p {
     height: 30px;
     background-image: url(../resources/burger_logo.png);
     background-size: cover;
+    transition: all 0.4s;
   }
   .burger__nav {
     display: block;
@@ -761,6 +750,9 @@ p {
     border-left: 3px solid #121212;
     padding-left: 30px;
   }
+  .intro {
+    margin-bottom: 120px;
+  }
   .intro__title {
     width: 100%;
     max-width: 802px;
@@ -768,13 +760,15 @@ p {
     line-height: 60px;
   }
   .intro__image {
-    margin-bottom: 120px;
     height: 400px;
     background-position: 25%;
   }
   .intro__text {
     left: 42px;
     bottom: 30px;
+  }
+  .about {
+    margin-bottom: 120px;
   }
   .about__subtitle {
     width: 100%;
@@ -784,7 +778,7 @@ p {
     line-height: 48px;
   }
   .projects {
-    margin-top: 120px;
+    margin-bottom: 120px;
   }
   .project__image {
     width: 100%;
@@ -798,9 +792,6 @@ p {
   .project_link {
     margin-top: 10px;
     margin-bottom: 80px;
-  }
-  .project__btn {
-    margin-bottom: 100px;
   }
   .services {
     margin-bottom: 120px;
@@ -832,15 +823,13 @@ p {
     line-height: 27px;
     text-align: center;
   }
+  .reviews {
+    margin-bottom: 120px;
+  }
   .row {
     width: 100%;
     margin-bottom: 50px;
     column-gap: 49px;
-  }
-  .row__title {
-    width: 100%;
-    font-size: 35px;
-    line-height: 48px;
   }
   .row__text {
     width: 100%;
@@ -848,18 +837,14 @@ p {
     font-size: 20px;
     line-height: 27px;
   }
-
-  .row__bottom-title {
-    font-size: 35px;
-    line-height: 48px;
-  }
-
   .row__bottom-text {
     width: 100%;
     max-width: 694px;
-    margin-bottom: 120px;
     font-size: 20px;
     line-height: 27px;
+  }
+  .gallery {
+    margin-bottom: 120px;
   }
   .gallery__title {
     top: 80px;
@@ -890,10 +875,7 @@ p {
     margin-left: 30px;
   }
   .contacts {
-    margin-top: 120px;
-  }
-  .contact__flex {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
   .number {
     width: 100%;
@@ -919,19 +901,24 @@ p {
     width: 100%;
     padding: 0 13px 0 13px;
   }
+  .header {
+    margin-bottom: 60px;
+  }
   .header__nav {
     display: none;
   }
-  .burger__content {
-    width: 80%;
+  .title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
   }
   .burger__btn {
     position: relative;
+    top: 30px;
+    right: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    top: 30px;
-    right: 15px;
     width: 50px;
     height: 20px;
     z-index: 100;
@@ -956,10 +943,10 @@ p {
     top: 14px;
   }
   .burger__btn.active span {
-    transform: rotate(-225deg) translate(0, -50%);
-    width: 30px;
     position: relative;
     top: 4px;
+    width: 30px;
+    transform: rotate(-225deg) translate(0, -50%);
   }
   .burger__btn.active::before {
     transform: rotate(225deg) translate(0, 50%);
@@ -972,6 +959,8 @@ p {
     width: 128px;
     height: 23px;
     background-image: url(../resources/Metrica.png);
+    background-size: cover;
+    transition: all 0.4s;
   }
   .burger__nav {
     display: block;
@@ -996,6 +985,9 @@ p {
     border-left: 3px solid #121212;
     padding-left: 30px;
   }
+  .intro {
+    margin-bottom: 80px;
+  }
   .intro__title {
     width: 100%;
     min-width: 348px;
@@ -1004,7 +996,6 @@ p {
   }
   .intro__image {
     margin-top: 25px;
-    margin-bottom: 80px;
     height: 304px;
     background-position: 25%;
   }
@@ -1016,10 +1007,8 @@ p {
     font-size: 16px;
     line-height: 22px;
   }
-  .about__title {
-    margin-bottom: 15px;
-    font-size: 14px;
-    line-height: 19px;
+  .about {
+    margin-bottom: 80px;
   }
   .about__subtitle {
     width: 100%;
@@ -1035,17 +1024,12 @@ p {
     line-height: 22px;
   }
   .projects {
-    margin-top: 80px;
+    margin-bottom: 80px;
   }
   .project__image {
     width: 100%;
     height: 250px;
     object-fit: cover;
-  }
-  .project__title {
-    margin-bottom: 15px;
-    font-size: 14px;
-    line-height: 19px;
   }
   .project__text {
     width: 100%;
@@ -1059,7 +1043,6 @@ p {
     line-height: 22px;
   }
   .project__btn {
-    margin-bottom: 80px;
     padding: 33px;
     width: 100%;
     height: 100px;
@@ -1069,11 +1052,6 @@ p {
   .services {
     margin-bottom: 80px;
     padding-top: 80px;
-  }
-  .service__title {
-    height: 19px;
-    font-size: 14px;
-    line-height: 19px;
   }
   .service__flex-box {
     flex-direction: column;
@@ -1159,10 +1137,8 @@ p {
   .input:nth-last-child(1) {
     margin-bottom: 60px;
   }
-  .review__title {
-    margin-bottom: 22px;
-    font-size: 14px;
-    line-height: 19px;
+  .reviews {
+    margin-bottom: 80px;
   }
   .row {
     margin: 0;
@@ -1188,11 +1164,11 @@ p {
   }
   .row__bottom-text {
     width: 100%;
-    margin-bottom: 80px;
     font-size: 16px;
     line-height: 22px;
   }
   .gallery {
+    margin-bottom: 80px;
     height: 408px;
   }
   .gallery__title {
@@ -1227,8 +1203,8 @@ p {
     width: 14px;
     height: 25px;
   }
-  .box__contact {
-    margin-top: 80px;
+  .contacts {
+    margin-bottom: 80px;
   }
   .tagline__contacts {
     font-size: 14px;
@@ -1237,7 +1213,6 @@ p {
   .contact__flex {
     flex-direction: column;
     margin-top: 0;
-    margin-bottom: 80px;
   }
   .contact__wrapper {
     margin-top: 21px;
