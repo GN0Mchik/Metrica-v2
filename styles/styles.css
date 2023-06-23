@@ -78,7 +78,7 @@ body {
 }
 
 .burger__content {
-  width: 50%;
+  width: 300px;
   height: 100%;
   border-radius: 5px;
   background: linear-gradient(310deg, #a0a1a1, #e3ddd1);
@@ -676,9 +676,6 @@ p {
   }
   .header__nav {
     display: none;
-  }
-  .burger__content {
-    width: 75%;
   }
   .burger__btn {
     position: relative;
