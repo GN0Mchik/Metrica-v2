@@ -677,6 +677,9 @@ p {
   .header__nav {
     display: none;
   }
+  .burger__content {
+    width: 75%;
+  }
   .burger__btn {
     position: relative;
     top: 30px;
