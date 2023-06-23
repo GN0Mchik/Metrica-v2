@@ -539,7 +539,7 @@ body {
   line-height: 41px;
 }
 
-.control__flex {
+.control__btn {
   position: absolute;
   top: 518px;
 }
@@ -663,7 +663,7 @@ p {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   width: 100%;
   max-width: 1180px;
 }
@@ -868,7 +868,7 @@ p {
     font-size: 25px;
     line-height: 34px;
   }
-  .control__flex {
+  .control__btn {
     top: 347px;
   }
   .gallery__control-prev {
@@ -1193,7 +1193,7 @@ p {
     font-size: 19px;
     line-height: 26px;
   }
-  .control__flex {
+  .control__btn {
     position: revert;
     top: 191px;
     display: flex;
