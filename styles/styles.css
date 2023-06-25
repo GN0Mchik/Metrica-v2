@@ -567,7 +567,7 @@ body {
   margin-bottom: 150px;
 }
 
-.contact__flex {
+.contact__list {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
@@ -1210,7 +1210,7 @@ p {
     font-size: 14px;
     line-height: 19px;
   }
-  .contact__flex {
+  .contact__list {
     flex-direction: column;
     margin-top: 0;
   }
