@@ -48,10 +48,6 @@ body {
   opacity: 0.5;
 }
 
-.nav__link:nth-last-child(1) {
-  margin-right: 0;
-}
-
 .burger__btn {
   display: none;
 }
@@ -411,11 +407,8 @@ body {
   outline: none;
 }
 
-.input:nth-last-child(1) {
-  margin-bottom: 80px;
-}
-
 .popup__btn {
+  margin-top: 30px;
   margin-bottom: 86px;
   max-width: 643px;
   width: 100%;
@@ -1118,6 +1111,7 @@ p {
     text-align: center;
   }
   .popup__btn {
+    margin-top: 20px;
     display: block;
     margin-bottom: 80px;
   }
@@ -1133,9 +1127,6 @@ p {
     margin-bottom: 40px;
     font-size: 18px;
     line-height: 25px;
-  }
-  .input:nth-last-child(1) {
-    margin-bottom: 60px;
   }
   .reviews {
     margin-bottom: 80px;
