@@ -371,7 +371,7 @@ body {
   border-radius: 10px;
 }
 
-.popup__conteiner {
+.popup__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1094,7 +1094,7 @@ p {
     max-height: 100%;
     overflow-y: scroll;
   }
-  .popup__conteiner {
+  .popup__container {
     padding: 0 16px 0 16px;
     width: 100%;
   }
