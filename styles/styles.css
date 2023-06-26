@@ -62,7 +62,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color: rgb(0, 0, 0, 0.6);
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s ease;
@@ -77,7 +77,7 @@ body {
   width: 300px;
   height: 100%;
   border-radius: 5px;
-  background: linear-gradient(310deg, #a0a1a1, #e3ddd1);
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 47%;
@@ -203,7 +203,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.about__btn:hover {
+.about__link:hover {
   border-color: #121212;
   background-color: #ffffff;
   color: #121212;
@@ -217,6 +217,7 @@ body {
   width: 100%;
   height: 449.79px;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .project__text {
@@ -259,7 +260,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.project__btn:hover {
+.project__link:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
@@ -496,7 +497,7 @@ body {
 
 .gallery__slide_active {
   display: block;
-  transform: all 0.5s ease;
+  transition: all 0.4s ease-in;
 }
 
 .slide__box {
