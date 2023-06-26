@@ -1,0 +1,33 @@
+@import url(../styles/reset.css);
+
+@import url(../styles/fonts.css);
+
+@import url(../section/html/html.css);
+
+@import url(../section/page/page.css);
+
+@import url(../section/header/header.css);
+
+@import url(../section/container/container.css);
+
+@import url(../section/burger/burger.css);
+
+@import url(../section/title/title.css);
+
+@import url(../section/intro/intro.css);
+
+@import url(../section/about/about.css);
+
+@import url(../section/projects/projects.css);
+
+@import url(../section/popup/popup.css);
+
+@import url(../section/services/services.css);
+
+@import url(../section/reviews/reviews.css);
+
+@import url(../section/gallery/gallery.css);
+
+@import url(../section/contacts/contacts.css);
+
+@import url(../section/footer/footer.css);
