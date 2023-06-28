@@ -77,8 +77,15 @@
   }
 }
 
+@media (max-width: 375px) {
+  .intro__title {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
 @media (max-width: 340px) {
   .intro__title {
-    min-width: 100%;
+    min-width: 0;
   }
 }
