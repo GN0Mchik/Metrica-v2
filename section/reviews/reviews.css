@@ -46,7 +46,7 @@
   }
   .row {
     width: 100%;
-    margin-bottom: 50px;
+    gap: 50px 20px;
   }
   .row__text {
     width: 100%;
