@@ -213,18 +213,18 @@
     align-items: center;
     margin-left: 30px;
     margin-bottom: 20px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     height: 35px;
     color: #121212;
-    border-left: 3px solid #121212;
+    /* border-left: 3px solid #121212; */
     font-size: 25px;
     line-height: 34px;
     text-decoration: none;
     text-transform: uppercase;
     transition: all 0.2s ease;
   }
-  .burger__link:hover {
+  /* .burger__link:hover {
     border-left: 3px solid #121212;
     padding-left: 30px;
-  }
+  } */
 }
