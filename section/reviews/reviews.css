@@ -11,9 +11,8 @@
 .row {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
-  column-gap: 49px;
+  flex-wrap: wrap;
+  gap: 50px 50px;
 }
 
 .row__item {
@@ -37,7 +36,6 @@
 .row__bottom-text {
   width: 100%;
   max-width: 861px;
-
   font-size: 22px;
   line-height: 30px;
 }
@@ -49,7 +47,6 @@
   .row {
     width: 100%;
     margin-bottom: 50px;
-    column-gap: 49px;
   }
   .row__text {
     width: 100%;
@@ -72,6 +69,7 @@
   .row {
     margin: 0;
     flex-direction: column;
+    gap: 0;
   }
   .row__title {
     margin-bottom: 10px;
