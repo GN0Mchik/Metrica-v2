@@ -1,0 +1,13 @@
+.title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+@media (max-width: 767px) {
+  .title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

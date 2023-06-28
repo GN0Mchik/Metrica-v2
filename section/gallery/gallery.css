@@ -1,0 +1,155 @@
+.gallery {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  max-width: 1800px;
+}
+
+.gallery__title {
+  position: absolute;
+  top: 60px;
+  z-index: 100;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.gallery__slide {
+  height: 717px;
+  display: none;
+}
+
+.gallery__slide_active {
+  display: block;
+  transition: all 0.4s ease-in;
+}
+
+.slide__box {
+  height: 717px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.slide__one {
+  background-image: url(../../resources/slide_one.png);
+}
+
+.slide__two {
+  background-image: url(../../resources/slide_two.png);
+}
+
+.slide__three {
+  background-image: url(../../resources/slide_three.png);
+}
+
+.slide__four {
+  background-image: url(../../resources/slide_four.png);
+}
+
+.slide__title {
+  position: absolute;
+  top: 575px;
+  width: 443px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.control__btn {
+  position: absolute;
+  top: 518px;
+}
+
+.gallery__control-prev {
+  padding-right: 36px;
+  border: none;
+  background: none;
+}
+
+.gallery__control-prev:hover {
+  opacity: 0.5;
+}
+
+.gallery__control-next {
+  border: none;
+  background: none;
+}
+
+.gallery__control-next:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 960px) {
+  .gallery {
+    margin-bottom: 120px;
+  }
+  .gallery__title {
+    top: 80px;
+    left: 50px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .gallery__slide {
+    height: 536px;
+  }
+  .slide__box {
+    height: 536px;
+    border-radius: 0;
+  }
+  .slide__title {
+    top: 388px;
+    left: 50px;
+    margin-top: 8px;
+    width: 100%;
+    max-width: 377px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .control__btn {
+    top: 347px;
+  }
+  .gallery__control-prev {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    margin-bottom: 80px;
+    height: 408px;
+  }
+  .gallery__title {
+    width: 128px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .gallery__slide {
+    height: 191px;
+  }
+  .slide__box {
+    width: 100%;
+    min-width: 320px;
+    height: 408px;
+    border-radius: 0;
+    background-position: 45%;
+  }
+  .slide__title {
+    top: 296px;
+    width: 100%;
+    max-width: 278px;
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .control__btn {
+    position: revert;
+    top: 191px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .control__slide {
+    width: 14px;
+    height: 25px;
+  }
+}

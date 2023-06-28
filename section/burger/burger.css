@@ -1,0 +1,230 @@
+.burger__btn {
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  padding: 13px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.burger_open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burger__content {
+  width: 300px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 47%;
+  position: relative;
+  transition: all 0.5s ease;
+  transform: translateX(100%);
+  overflow: auto;
+}
+
+.burger_open .burger__content {
+  transform: translateX(0);
+}
+
+.burger__contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.burger__contact-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+
+.burger__number {
+  font-size: 20px;
+  line-height: 46px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.burger__number:hover {
+  opacity: 0.5;
+}
+
+.burger__link-mail {
+  color: #121212;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.burger__link_mail:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 960px) {
+  .burger__btn {
+    position: relative;
+    top: 30px;
+    right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+    transform: all 0.5s ease;
+  }
+  .burger__btn span {
+    height: 2px;
+    width: 50px;
+    transform: scale(1);
+    background-color: #121212;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .burger__btn::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 31px;
+    background-color: #121212;
+    transition: all 0.3s ease-in-out;
+  }
+  .burger__btn::before {
+    top: 14px;
+  }
+  .burger__btn.active span {
+    position: relative;
+    top: 4px;
+    width: 30px;
+    transform: rotate(-225deg) translate(0, -50%);
+  }
+  .burger__btn.active::before {
+    width: 30px;
+    transform: rotate(225deg) translate(0, 50%);
+  }
+  .burger__logo {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 180px;
+    height: 30px;
+    background-image: url(../../resources/burger_logo.png);
+    background-size: cover;
+    transition: all 0.4s;
+  }
+  .burger__nav {
+    display: block;
+  }
+  .burger__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    /* padding-left: 10px; */
+    height: 35px;
+    color: #121212;
+    /* border-left: 3px solid #121212; */
+    font-size: 25px;
+    line-height: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  /* .burger__link:hover {
+    border-left: 3px solid #121212;
+    padding-left: 30px;
+  } */
+}
+
+@media (max-width: 767px) {
+  .burger__btn {
+    position: relative;
+    top: 30px;
+    right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+    transform: all 0.5s ease;
+  }
+  .burger__btn span {
+    height: 2px;
+    width: 38px;
+    transform: scale(1);
+    background-color: #121212;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .burger__btn::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 24px;
+    background-color: #121212;
+    transition: all 0.3s ease-in-out;
+  }
+  .burger__btn::before {
+    top: 14px;
+  }
+  .burger__btn.active span {
+    position: relative;
+    top: 4px;
+    width: 30px;
+    transform: rotate(-225deg) translate(0, -50%);
+  }
+  .burger__btn.active::before {
+    transform: rotate(225deg) translate(0, 50%);
+    width: 30px;
+  }
+  .burger__logo {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 128px;
+    height: 23px;
+    background-image: url(../../resources/Metrica.png);
+    background-size: cover;
+    transition: all 0.4s;
+  }
+  .burger__nav {
+    display: block;
+  }
+  .burger__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    height: 35px;
+    color: #121212;
+    border-left: 3px solid #121212;
+    font-size: 25px;
+    line-height: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+  }
+  .burger__link:hover {
+    border-left: 3px solid #121212;
+    padding-left: 30px;
+  }
+}
