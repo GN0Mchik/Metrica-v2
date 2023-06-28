@@ -81,6 +81,10 @@
   opacity: 0.5;
 }
 
+.control__slide {
+  cursor: pointer;
+}
+
 @media (max-width: 960px) {
   .gallery {
     margin-bottom: 120px;
