@@ -121,6 +121,8 @@
     height: 408px;
   }
   .gallery__title {
+    top: 60px;
+    left: 13px;
     width: 128px;
     font-size: 14px;
     line-height: 19px;
@@ -137,6 +139,7 @@
   }
   .slide__title {
     top: 296px;
+    left: 13px;
     width: 100%;
     max-width: 278px;
     font-size: 19px;
@@ -151,5 +154,8 @@
   .control__slide {
     width: 14px;
     height: 25px;
+  }
+  .gallery__control-prev {
+    margin-left: 0;
   }
 }
